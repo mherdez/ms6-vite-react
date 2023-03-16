@@ -1,4 +1,4 @@
-// import './Card.css'
+import './Card.css'
 
 export default function Card({id}) {
 
@@ -8,9 +8,9 @@ export default function Card({id}) {
 
   return (
     <div className="card">
-      <img className="card-img-top" src={url} alt="foto" onClick={()=>window.open(url, '_blank')}/>
-      <div className="card-body bg-secondary">
-        <p className="card-title text-light">Fotografía # <span className="fw-bold fs-4">{id}</span></p>
+      <img className="card-photo" src={url} alt="foto" onClick={()=>window.open(url, '_blank')}/>
+      <div className="card-body">
+        <p className="card-title">Fotografía # <span>{id}</span></p>
       </div>
     </div>
   )

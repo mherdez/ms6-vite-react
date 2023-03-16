@@ -10,7 +10,7 @@ do {
 } while( array.size < max)
 
   return (
-    <div className='container gap-5'>
+    <div className='container'>
       {[...array].map( id => <Card key={id} id={id} />)}
     </div>
   )
