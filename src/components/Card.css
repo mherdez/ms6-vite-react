@@ -1,0 +1,31 @@
+
+.card {
+  aspect-ratio: 2/3;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid yellow;
+  box-sizing: border-box;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 15px;
+}
+
+.card-photo {
+  /* filter: brightness(0);  */
+  /* width: 90%; */
+  margin-bottom: 20px;
+  transition: all 500ms ease-out;
+  width: 100%;
+}
+.card-photo:hover {
+  cursor: pointer;
+  filter: brightness(1);
+}
+.card-title span{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
